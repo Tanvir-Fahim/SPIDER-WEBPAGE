@@ -1,0 +1,68 @@
+*{
+    background-color: powderblue;
+}
+
+#heading {
+    color: blue;
+    text-align: center;
+    background-color:white;
+    filter: drop-shadow(2px 4px 6px black);
+    border: 2px solid rgb(89, 196, 253);
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    border-radius: 15px;
+}
+
+.paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: justify;
+    padding: 20px;
+    padding-top: 2px;
+}
+
+#h3 {
+    color: green;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+#list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-top: 5px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#source {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: 'Georgia', serif;
+    padding-left: 80px;
+}
+
+hr{
+    border: 2px solid rgb(189, 30, 128);
+    opacity: 0.5;
+    filter: drop-shadow(2px 2px 6px black);
+    
+}
+
+#country{
+    color: red;
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.5;
+}
